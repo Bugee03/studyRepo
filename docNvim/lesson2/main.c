@@ -2,7 +2,7 @@
 #include <stdbool.h>
 
 int main(){
-  
+    
   char n = 'R';   //single character %c
   char name[] = "Romania";  //array of characters %s
 
@@ -25,5 +25,6 @@ int main(){
   long long int l = 3242532532234; //8 bytes (-9 quintillion +9quadrillion)
   unsigned long long int ull = 234534234324; // 8 bytes (+18 quintillion);
   
+  printf("hello world");
   return 0;
 }
