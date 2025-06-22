@@ -54,7 +54,7 @@ void print_list(Student students[],int size){
 
 void sortBy_name(Student students[],int size){
     for (int i = 0; i < size - 1; i++) {
-        for (int j = 0; j - 1 - i ;j++) {
+        for (int j = 0; j < size - 1 - i; j++) {
             if (students[j].name[0] > students[j + 1].name[0]) {
                 Student temp = students[j];
                 students[j] = students[j + 1];
