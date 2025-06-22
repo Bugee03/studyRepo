@@ -10,6 +10,9 @@ int main(void){
         printf("strom!!");
     }
     else if(strcmp(string1,string2) > 0){
+        printf("s1 > string2");
+    }
+    else {
         printf("s1 < string2");
     }
 }
